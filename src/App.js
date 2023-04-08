@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Toaster } from 'react-hot-toast';
 import './App.css';
 import ContactForm from './components/ContactForm/ContactForm';
 import ContactList from './components/ContactList/ContactList';
@@ -17,6 +18,7 @@ function App() {
       </div>
 
      }
+     <Toaster/>
     </div>
   );
 }
